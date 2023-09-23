@@ -255,7 +255,7 @@ size: 50px;
 }
 
 .title {
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 70px;
   text-align: center;
 }
@@ -290,4 +290,28 @@ h3 {
   font-weight: 600;
   line-height: 1.2;
   font-family: "Montserrat Alternates", sans-serif;
+}
+
+.cover_ic {
+  margin-right: 10px;
+}
+
+.cover_img {
+  margin-top: 301px;
+  width: 500px;
+  height:;
+}
+
+.cover_first_img {
+  max-height: 100px;
+}
+
+.cover_second_img {
+  max-height: 100px;
+}
+
+.cover_img2 {
+  margin-top: 91px;
+  width: 432px;
+  margin-left: 1450px;
 }
