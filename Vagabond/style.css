@@ -90,7 +90,7 @@ h5 {
   line-height: 1.2;
 }
 
-.d-flex {c
+.d-flex {
   display: -webkit-box!important;
   display: -ms-flexbox!important;
   display: flex!important;
@@ -252,4 +252,42 @@ footer {
 
 #sorter {
 size: 50px;
+}
+
+.title {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.title-main {
+  font-size: 32px;
+  font-align: center;
+}
+
+.title-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.i_block {
+  margin-bottom: 50px;
+}
+
+h2 {
+  display: block;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h3 {
+  display: block;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: "Montserrat Alternates", sans-serif;
 }
