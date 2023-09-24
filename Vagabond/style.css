@@ -255,7 +255,6 @@ size: 50px;
 }
 
 .title {
-  padding-top: 0px;
   padding-bottom: 70px;
   text-align: center;
 }
@@ -310,8 +309,29 @@ h3 {
   max-height: 100px;
 }
 
+.cover_third_img {
+  max-height: 100px;
+}
+
 .cover_img2 {
   margin-top: 91px;
   width: 432px;
   margin-left: 1450px;
 }
+
+.cover_img3 {
+  margin-top: 605px;
+  width: 330px;
+  margin-left: 780px;
+  height: 80px;
+}
+
+.cover_kat {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+
