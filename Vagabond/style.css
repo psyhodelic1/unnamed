@@ -162,7 +162,7 @@ p {
 .btn {
 	padding: 11px;
   font-size: 14px;
-  min-height: 40px
+  min-height: 40px;
   text-align: center;
   touch-action: manipulation;
   cursor: pointer;
@@ -229,14 +229,15 @@ p {
 
 footer {
 	background: #000; 
-	background-position: bottom;
-	background-size: cover;
+/*	background-position: bottom;*/
+/*	background-size: cover;*/
 	left: 0;
 	right: 0;
 	bottom: 0;
 	top: 10;
-	position: fixed;
+	position: absolute;
 	height: 150px;
+  padding: 50px 0 94px;
 	color: #FFF;
 	font-family: 'Montserrat', !important
 
@@ -335,3 +336,32 @@ h3 {
 }
 
 
+.feedback {
+  margin-top: 190px;
+  background-color: black;
+}
+
+.white {
+  color: rgb(255, 255, 255, 1.0);
+}
+
+.form-input {
+  background: #fff;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 5px;
+  width: 580px;
+  padding: 15px 0;
+  margin-right: 21px;
+  border: 0;
+  outline: none;
+}
+
+
+.title-text {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
