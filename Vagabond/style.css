@@ -243,6 +243,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	top: 10;
+  margin: 0 auto;
 /*	position: absolute;*/
 	height: 150px;
   padding: 50px 0 94px;
@@ -269,6 +270,7 @@ size: 50px;
 }
 
 .title-main {
+  margin-top: 50px;
   font-size: 32px;
   font-align: center;
 }
@@ -395,9 +397,17 @@ h3 {
 
 .text-cover-img {
   position: absolute;
+  margin-left: -25px;
+  margin-top: -25px;
 }
 
 .text-cover {
   position: relative;
   text-transform: uppercase;
+}
+
+.offer-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
 }
