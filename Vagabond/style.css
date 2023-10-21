@@ -407,7 +407,33 @@ h3 {
 }
 
 .offer-text {
-  font-size: 20px;
+  font-family: 'Unbounded', sans-serif !important;
+  color: rgb(255, 255, 255, 1.0);
+  font-size: 24px;
   font-weight: bold;
-  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.offer-title {
+  font-family: 'Nosifer', sans-serif !important;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 0, 0, 1.0);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.offer-cnt {
+/*  width: 1000px;*/
+}
+
+@media (orientation: landscape) {
+  .offer-cnt {
+    width: 1000px;
+  }
+}
+
+@media (orientation: portrait) {
+  .offer-cnt {
+    width: 500px;
+  }
 }
