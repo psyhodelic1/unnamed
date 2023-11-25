@@ -1,26 +1,30 @@
-.navbar {
-	background: #000;
+@media (orientation: landscape) {
+  .offer-cnt {
+    width: 1000px;
+  }
+  .navbar {
+  background: #000;
 }
 
 .nav-link, .navbar-brand {
-	color: #FFF;
+  color: #FFF;
 }
 
 .nav-link {
-	margin-right: 2em;
+  margin-right: 2em;
 }
 
 .nav-link:hover {
-	background: #FFF;
-	color: #000;
+  background: #FFF;
+  color: #000;
 }
 
 .navbar-collapse{
-	justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .navbar-toggler {
-	background: #fff;
+  background: #fff;
 }
 
 nav {
@@ -29,20 +33,20 @@ nav {
   font-size: 9pt;
   font-weight: bold;
   line-height: 7px;
-}	
+} 
 
 .c-title {
-	margin-top: 100px;
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 30px;
+  margin-top: 100px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
 }
 
 a {
-	font-family: 'Montserrat', sans-serif;
-	color: rgb(220,20,60);
-	cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(220,20,60);
+  cursor: pointer;
 
 }
 
@@ -51,11 +55,11 @@ h5 {
 }
 
 .link-a {
-	color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .cic-name {
-	display: block;
+  display: block;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 600;
@@ -72,7 +76,7 @@ h5 {
 }
 
 .m-t-10 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .m-t-200 {
@@ -88,7 +92,7 @@ h5 {
 }
 
 .m-b-30 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 
@@ -160,15 +164,15 @@ img {
 }
 
 .card-body > h5 {
-	font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 p {
-	font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .btn {
-	padding: 11px;
+  padding: 11px;
   font-size: 14px;
   min-height: 40px;
   text-align: center;
@@ -193,7 +197,7 @@ p {
 }
 
 .m-l-90 {
-	margin-left: 90px!important;
+  margin-left: 90px!important;
 }
 
 .pagination {
@@ -232,23 +236,23 @@ p {
 }
 
 .pagination > li {
-	margin: 5px;
+  margin: 5px;
 }
 
 footer {
-	background: #000; 
-/*	background-position: bottom;*/
-/*	background-size: cover;*/
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 10;
+  background: #000; 
+/*  background-position: bottom;*/
+/*  background-size: cover;*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 10;
   margin: 0 auto;
-/*	position: absolute;*/
-	/*height: 150px;*/
+/*  position: absolute;*/
+  /*height: 150px;*/
   padding: 50px 0 94px;
-	color: #FFF;
-	font-family: 'Montserrat', !important
+  color: #FFF;
+  font-family: 'Montserrat', !important
 
 }
 
@@ -421,15 +425,6 @@ h3 {
   color: rgb(255, 0, 0, 1.0);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
-.offer-cnt {
-/*  width: 1000px;*/
-}
-
-@media (orientation: landscape) {
-  .offer-cnt {
-    width: 1000px;
-  }
 }
 
 @media (orientation: portrait) {
