@@ -2,8 +2,8 @@
   .offer-cnt {
     width: 1000px;
   }
-  .navbar {
-  background: #000;
+.navbar {
+background: #000;
 }
 
 .nav-link, .navbar-brand {
@@ -351,7 +351,7 @@ h3 {
 
 
 .feedback {
-  margin-top: 190px;
+  margin-top: 50px;
   background-color: black;
 }
 
@@ -425,10 +425,9 @@ h3 {
   color: rgb(255, 0, 0, 1.0);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
+.m-b-200 {
+  margin-bottom: 200px;
 }
 
-@media (orientation: portrait) {
-  .offer-cnt {
-    width: 500px;
-  }
 }
