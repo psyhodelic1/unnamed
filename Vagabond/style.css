@@ -240,17 +240,30 @@ p {
 }
 
 footer {
-  background: #000; 
-/*  background-position: bottom;*/
-/*  background-size: cover;*/
+  background: #000;
   left: 0;
   right: 0;
   bottom: 0;
   top: 10;
   margin: 0 auto;
-/*  position: absolute;*/
-  /*height: 150px;*/
   padding: 50px 0 94px;
+  position: absolute;
+  height: 200px;
+  color: #FFF;
+  font-family: 'Montserrat', !important
+
+}
+
+.cover {
+   background: #000;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 10;
+  margin: 0 auto;
+  padding: 50px 0 94px;
+  height: 200px;
+  position: relative;
   color: #FFF;
   font-family: 'Montserrat', !important
 
